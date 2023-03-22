@@ -1,6 +1,6 @@
 name: Pylint
 
-on:   
+on:[push]   
    schedule:
    - cron: "44 16 * * 4"
 
