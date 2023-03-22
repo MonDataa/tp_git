@@ -1,14 +1,8 @@
 name: Pylint
 
-on:  
-  workflow_dispatch:        
-    inputs:            
-      args:                
-        description: 'manual things'                
-        default: 'all'                
-        required: false   
-   schedule:    
-     - cron: 0 0 * * * 
+on:   
+   schedule:
+    - cron: "44 16 * * 4"
 
 jobs:
   build:
