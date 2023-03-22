@@ -1,3 +1,1 @@
-X="hello"
-
-print(X)
+print("hello main")
