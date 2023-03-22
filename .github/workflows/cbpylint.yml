@@ -3,7 +3,7 @@ name: Pylint
 on:[push] 
 
    schedule:
-   - cron: "44 16 * * 4"
+   - cron: 0 0 * * *
 
 jobs:
   build:
